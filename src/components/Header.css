@@ -1,0 +1,52 @@
+#wrap-all-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+}
+#header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #fff;
+  flex-direction: row;
+  padding: 25px 0;
+  width: 85%;
+  margin: 0 auto;
+}
+#header-sections {
+  flex-direction: row;
+}
+#vl {
+  background-color: #262626;
+  height: 30px;
+  margin: 0 16px;
+  width: 1px;
+  display: inline-flex;
+}
+.header-sections {
+  display: inline-flex;
+  align-content: center;
+}
+
+.header-sections h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+
+}
+
+.icon {
+  padding: 2px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
