@@ -1,5 +1,7 @@
 #wrap-all-header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+  width: 100%;
+  height: 100%;
 }
 #header-container {
   display: flex;
@@ -11,9 +13,12 @@
   width: 85%;
   margin: 0 auto;
 }
-#header-sections {
+.header-sections {
   flex-direction: row;
+  display: inline-flex;
+  align-content: center;
 }
+
 #vl {
   background-color: #262626;
   height: 30px;
@@ -21,32 +26,46 @@
   width: 1px;
   display: inline-flex;
 }
-.header-sections {
-  display: inline-flex;
-  align-content: center;
-}
-
 .header-sections h2 {
   padding: 0;
   margin: 0;
 }
-
+/*     Icons/Input fields                   */
 .input-icons i {
   position: absolute;
 }
 
-.input-icons {
-  width: 100%;
-
-}
-
 .icon {
-  padding: 2px;
+  padding: 2px 0 0 0;
   min-width: 40px;
 }
+.input-icons {
+  border: solid 1px #dbdbdb;
+  min-width: 125px;
+  width: 215px;
+}
 
+.search-icon {
+  padding: 9.5px 0 0 65px;
+  color: gray;
+}
 .input-field {
   width: 100%;
-  padding: 5px;
+  padding: 5px 0;
   text-align: center;
+  border: solid 1px #dbdbdb;
+  background: #fafafa;
+}
+.nav-icon-anchor {
+  color: black;
+  margin-left: 20px;
+}
+
+/*     Media Querries                  */
+@media only screen and (max-width: 1024px) {
+  #header-container {
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+  }
 }

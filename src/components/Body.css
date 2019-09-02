@@ -1,0 +1,45 @@
+#body {
+  padding-top: 10vh;
+  background-color: #fafafa;
+  height: 90vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+}
+#body-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.profile-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+#profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 11vw;
+}
+.profile-user-info {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+}
+.profile-user-info a {
+  background: transparent;
+  color: black;
+}
+button {
+  background: transparent;
+}
+#edit-profile-button {
+  margin: 0 0.75vw 0 2vw;
+  height: 3.3vh;
+  border: 1px solid #dbdbdb;
+  color: #262626;
+  font: bold;
+  padding: 0 1.5vh;
+}
+ul {
+  list-style-type: none;
+}

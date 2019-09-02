@@ -12,7 +12,7 @@ class Header extends React.Component {
           </div>
           <div className="header-sections">
             <div class="input-icons">
-              <i class="search icon"></i>
+              <i class="small search icon search-icon"></i>
               <input
                 class="input-field"
                 type="input"
@@ -21,9 +21,15 @@ class Header extends React.Component {
             </div>
           </div>
           <div className="header-sections">
-            <i className="big compass outline icon"></i>
-            <i className="big heart outline icon"></i>
-            <i className="big user outline icon"></i>
+            <a href="#" className="nav-icon-anchor">
+              <i className="big compass outline icon"></i>
+            </a>
+            <a href="#" className="nav-icon-anchor">
+              <i className="big heart outline icon"></i>
+            </a>
+            <a href="#" className="nav-icon-anchor">
+              <i className="big user outline icon"></i>
+            </a>
           </div>
         </div>
       </div>
