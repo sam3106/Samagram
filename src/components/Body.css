@@ -6,24 +6,23 @@
     Arial, sans-serif;
 }
 #body-container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  width: 50%;
+  margin: 0% auto;
 }
-.profile-info {
-  display: flex;
-  flex-wrap: wrap;
+#profile-image {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
 }
-#profile-pic {
+#profile-image img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin-right: 11vw;
+  margin-right: 6vw;
 }
 .profile-user-info {
-  margin-top: 2vh;
-  display: flex;
-  flex-direction: row;
+  width: 50%;
+  float: right;
 }
 .profile-user-info a {
   background: transparent;
@@ -33,7 +32,7 @@ button {
   background: transparent;
 }
 #edit-profile-button {
-  margin: 0 0.75vw 0 2vw;
+  margin: 0 0.75vw 0 1vw;
   height: 3.3vh;
   border: 1px solid #dbdbdb;
   color: #262626;
@@ -42,4 +41,16 @@ button {
 }
 ul {
   list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+li {
+  margin-right: 3vw;
+}
+#lastLi {
+  margin: 0;
+}
+span {
+  font-weight: bolder;
+  font-size: 16.5px;
 }
