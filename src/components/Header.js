@@ -11,10 +11,10 @@ class Header extends React.Component {
             <h2>Samagram</h2>
           </div>
           <div className="header-sections">
-            <div class="input-icons">
-              <i class="small search icon search-icon"></i>
+            <div className="input-icons">
+              <i className="small search icon search-icon"></i>
               <input
-                class="input-field"
+                className="input-field"
                 type="input"
                 placeholder="Search"
               ></input>
